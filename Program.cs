@@ -42,7 +42,7 @@ switch (options)
         Console.WriteLine("Result is " + result);
         break;
     case 4:
-         //         User Entry for First number
+         //         User Entry for First number.
         Console.WriteLine("Enter first number");
         num1 = Convert.ToInt32(Console.ReadLine());
          //         User Entry for Second number
