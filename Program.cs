@@ -2,6 +2,7 @@
 
 int num1, num2, result;
 Console.WriteLine("Welcome to the calculator program");
+// Enabling the User to choose from their desired options 
 Console.WriteLine("Enter \n 1.Addition\n 2.Subtraction\n 3.Multiplication\n 4.Division");
 int options=Convert.ToInt32(Console.ReadLine());
 
@@ -29,6 +30,7 @@ switch (options)
         result = num1 - num2;
         //         Outputing Result
         Console.WriteLine("Result is " + result);
+//         The break statement jumps out of the Switch case
         break;
     case 3:
         //         User Entry for First number
@@ -40,6 +42,7 @@ switch (options)
         result = num1 * num2;
         //         Outputing Result
         Console.WriteLine("Result is " + result);
+        //         The break statement jumps out of the Switch case
         break;
     case 4:
          //         User Entry for First number.
